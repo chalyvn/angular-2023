@@ -12,6 +12,9 @@ import {VoterChildComponent} from "./voter-child.component";
 import {VoteTakerParentComponent} from "./votetaker-parent.component";
 import {CountdownTimerComponent} from "./countdown-timer.component";
 import {CountdownParentComponent} from "./countdown-parent.component";
+import {CountdownViewChildParentComponent} from "./countdown-vc-parent.component";
+import {MissionControlComponent} from "./missioncontrol.component";
+import {AstronautComponent} from "./astronaut.component";
 
 @NgModule({
   declarations: [
@@ -25,7 +28,10 @@ import {CountdownParentComponent} from "./countdown-parent.component";
     VoterChildComponent,
     VoteTakerParentComponent,
     CountdownTimerComponent,
-    CountdownParentComponent
+    CountdownParentComponent,
+    CountdownViewChildParentComponent,
+    MissionControlComponent,
+    AstronautComponent
   ],
   imports: [
     BrowserModule
